@@ -1,0 +1,24 @@
+<?xml version = "1.0"?>
+ 
+ <project name="SimpleANT" default="move" basedir=".">
+
+   <target name="delete">
+     <delete dir="bin"/>
+     <delete dir="lib"/>
+     <delete dir="source"/>
+     <delete dir="test-output"/>
+    </target>
+
+   <target name ="create" depends="delete">
+     <mkdir dir="bin"/>
+     <mkdir dir="lib"/>
+     <mkdir dir="source"/>
+     <mkdir dir="test-output"/>
+  </target>
+
+   <target name="move" depends="create"> 
+     <copydir   src="E:\Git1\SimpleANT\src" dest="E:\Git1\SimpleANT\ant\build\source" includes="**/*.java">
+     </copydir>
+    </target>   
+
+</project>
