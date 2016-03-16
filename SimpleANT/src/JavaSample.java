@@ -5,7 +5,7 @@ public class JavaSample {
 	
 		System.out.println("This is JavaSample");
 		
-		
+		System.out.println("POJO class");
 	}
 
 }
