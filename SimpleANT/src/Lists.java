@@ -33,7 +33,8 @@ public class Lists {
 	     // value = map.get(key);
 	  
      for(POJO i: map.get(key)){
-    	 System.out.println("ID is :" +i.getId() +" \t Name is :" + i.getName());
+    	 System.out.println("ID is :" +i.getId() );
+    	 System.out.println("Name is :" + i.getName());
      }
 	 
 	  }
